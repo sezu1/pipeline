@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pipeline</title>
+</head>
+<body>
+    <form id="dealForm">
+        <h3>Client Details</h3>
+        <input type="text" id="firstName" placeholder="First Name" required>
+        <input type="text" id="lastName" placeholder="Last Name" required>
+        <input type="tel" id="phone" placeholder="Phone" required>
+        <input type="email" id="email" placeholder="Email">
+
+        <h3>Job Details</h3>
+        <input type="text" id="jobType" placeholder="Job Type" required>
+        <textarea id="jobDescription" placeholder="Job Description"></textarea>
+
+        <h3>Service Location</h3>
+        <input type="text" id="address" placeholder="Address" required>
+        <input type="text" id="city" placeholder="City" required>
+
+        <h3>Schedule</h3>
+        <input type="date" id="startDate" required>
+        <input type="time" id="startTime" required>
+
+        <button type="submit">Save Deal</button>
+    </form>
+<script src="script.js"></script>
+</body>
+</html>
